@@ -1,0 +1,159 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:black;
+}
+header{
+display: unset;
+}
+.navigation {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	background-color:black;
+	position:sticky;
+	position: -webkit-sticky;
+	top:0;
+}
+
+.navigation li {
+  margin-left: 0;
+  padding-left: 0;
+
+}
+
+@media screen and ( min-width: 768px ) {
+  .navigation {
+    	font-size: 20px;
+  }
+}
+
+.hero-banner {
+    display:flex;
+    flex-direction:column;
+
+	background: black;
+	align-items:center;
+	color:white;
+	padding: 20px 25px;
+}
+
+.card {
+	background: black;
+	padding: 15px 25px;
+	margin-top: 15px;
+	color:white;
+}
+
+.global-footer {
+	background: black;
+	padding: 15px 25px;
+	margin-top: 15px;
+}
+
+.trivia-cards {
+	display: flex;
+	justify-content: space-between;
+	color:white;
+    max-width: 100%;
+    overflow-y: auto;
+}
+@media screen and (max-width: 700px) {
+  .trivia-cards,#characters{
+    flex-direction: column;
+  }
+}
+.trivia-card {
+flex-basis: auto;
+	padding: 15px;
+    max-width: 100%;
+}
+
+.center-text {
+	text-align: center;
+}
+a{
+ text-decoration:none;
+    color: white;
+}
+.navigation a{
+
+    padding:5px;
+    margin: 5px;
+
+}
+.navigation a:hover{
+    background-color:yellow;
+}
+.hero-banner a{
+    background-color:red;
+    padding:10px;
+}
+h1{
+    font-size:60px;
+    margin-bottom:200px;
+    margin-top:0px;
+}
+.hero-banner a:hover{
+background-color:orange;
+}
+h2{
+    color:white;
+    padding:10px;
+    margin:10px;
+    font-size:40px;
+}
+span{
+    color:white;
+}
+.center-text{
+    margin-top:20px;
+}
+.schedule-href{
+
+    color:black;
+    background-color:white;
+    padding:10px;
+}
+
+.schedule-href:hover{
+    background-color:yellow;
+}
+
+.image-trivia-card{
+    max-width:300px;
+    height:auto;
+}
+footer{
+    text-align:center;
+    color:grey;
+
+}
+#characters{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.character-image{
+    width:300px;
+    height:auto;
+}
+table {
+background-color: transparent;
+border-collapse: collapse;
+width: 100%;
+}
+
+th, td {
+border: 1px solid black;
+padding: 8px;
+text-align: center;
+color: white;
+}
+
+tr:nth-child(odd) {
+background-color: black;
+}
+
+tr:nth-child(even) {
+background-color: gray;
+}
